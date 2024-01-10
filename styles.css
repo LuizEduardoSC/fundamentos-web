@@ -1,0 +1,80 @@
+.Menu {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Titulo {
+    background-color: rgb(228, 106, 19);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: url('assets/img/papers.co-he99-lebron-james-dunk-nba-sports-art-basketball-36-3840x2400-4k-wallpaper-1024x640.jpg');
+    background-size: cover;
+}
+
+.Introducao {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Video {
+    text-align:center;
+    border-style: unset;
+    border: 2px solid #fbfafa; /* Substitua #000 pelo código de cor desejado */
+    border-radius: 10px; /* Opcional: Adiciona cantos arredondados */
+}
+
+ul, ol {
+    list-style: none;
+    }
+
+form {
+        text-align:center;
+        font-size:15px;
+        color:white
+    }
+
+.Localizacao {
+    font-size:20px; 
+    color: rgb(255, 255, 255); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+}
+
+.Perfil {
+    font-size:250%; 
+    color: rgb(255, 255, 255); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+} 
+
+.fotoPerfil {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+
+}
+
+.entreEmContato {
+    text-align: center;
+}
+
+.Midia {
+    text-align: center;
+}
+
+.video {
+    font-size:250%; 
+    color: rgb(122, 208, 243); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+}
