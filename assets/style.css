@@ -1,0 +1,320 @@
+.Menu {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container{
+    
+    /* Maneira de Organizar os códigos em tela */
+    display: flex;
+    /* Alinhamento em Vertical - Eixo Y*/
+    align-items: center;
+    /* Alinhamento em Horizontal - Eixo X*/
+    justify-content: flex-start;
+
+    /* Espaçamento externo */
+    margin: 20px;
+    /* Limite de uma tag, ou no caso, a div */
+    border: 5px red solid;
+    /* Espaçamento interno (entre o conteudo e borda) */
+    padding: 20px;
+} 
+
+.Titulo {
+    background-color: rgb(228, 106, 19);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Home {
+    background-image: url('img/lbj\ dunk.jpg');
+    background-size: cover;
+    
+}
+
+.Contato {
+    background-image: url('img/lbj\ dunk.jpg');
+    background-size: cover;
+}
+
+.Introducao {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(246, 246, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: transparent;
+}
+
+.Video {
+    text-align:center;
+    border-style: unset;
+    border: 2px solid #fbfafa; /* Substitua #000 pelo código de cor desejado */
+    border-radius: 10px; /* Opcional: Adiciona cantos arredondados */
+}
+
+
+.Localizacao {
+    font-weight: bold;
+    font-size:20px; 
+    color: rgb(255, 255, 255); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+}
+
+.Perfil {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: transparent;
+    color: rgb(74, 62, 239); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+} 
+
+.sobre_github{
+    font-weight: bold;
+    font-size: 50px;
+    background-color: transparent;
+    color: rgb(74, 62, 239); 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+}
+
+.fotoPerfil {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+
+}
+
+.entreEmContato {
+    text-align: center;
+}
+
+.Midia {
+    text-align: center;
+}
+
+.video {
+    font-size:250%; 
+    color: orange; 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align:center;
+}
+
+form {
+    font-weight: bold;
+    text-align:center;
+    font-size:18px;
+    color:white
+}
+
+ul, ol {
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    }
+
+
+
+
+/* Header */
+/* Resetando as config. padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-weight: 100;
+
+    /* Definindo a Fonte de Texto do Projeto*/
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    /* Definindo a altura padrão da tela */
+    height: 100vh;
+
+    /* Scroll suave */
+    scroll-behavior: smooth;
+}
+
+/* Definindo "variaveis" de cor para o nosso projeto*/
+:root {
+    --purple-200: #9a7bd1;
+    --purple-500: #6b36c8;
+    --purple-800: #441f88;
+
+    --black-800: #171717;
+
+    --gray-200: #cccccc;
+    --gray-400: #505861;
+
+    --white: #F9F9F9;
+}
+
+/* HOME */
+.home_container {
+    max-width: 1120px;
+    margin: 16px auto;
+    padding: 0 16px;
+    height: calc(100vh - 100px);
+
+    display: flex;
+    place-items: center;
+}
+
+
+section {
+    display: block;
+}
+
+/* MENU */
+.menu_container {
+    height: 80px;
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    place-items: center;
+    font-size: 30px;
+    background-color: var(--black-800);
+    border-bottom: 1px solid var(--purple-500);
+    filter: opacity(0.9);
+}
+
+.menu_content {
+    
+    max-width: 1120px;
+    padding: 0 24px;
+    place-items: center;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.home_content_img {
+    display: flex;
+    width: 75%;
+}
+
+.menu_lista {
+    list-style: none;
+    text-align: center;
+    color: var(--white);
+    
+    
+}
+
+.menu_lista li {
+    margin: 0 0 0 30px;
+    color: var(--white);
+    background-color: var(--black-800);
+}
+
+.menu_container a {
+    font-size: 20px;
+    color: var(--purple-200);
+    font-weight: bold;
+    background-color: var(--black-800);
+}
+
+.menu_container a:hover {
+    color: orange;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    /*text-decoration: underline; */ /*Serve para inserir ou remover a linha abaixo do texto*/
+}
+
+/* Classe Padrão para Alinhamento com Display Flex */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Classe Padrão para Alinhamento com Display Flex em Modo Coluna*/
+.flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+}
+
+
+div {
+    display: block;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+    display: inline;
+}
+
+header {
+    display: block;
+}
+
+.btn:hover {
+    transition: all .2s ease-in-out;
+    background: var(--purple-500);
+}
+
+/* Classe Padrão para todos os Botões 
+.btn {
+    text-align: center;
+    padding: 12px 32px;
+    background: none;
+    border: 1px solid var(--purple-500);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all .2s ease-in-out;
+}*/
+
+button, a {
+    cursor: pointer;
+}
+
+/* RODAPÉ */
+footer {
+    margin: 0;
+    padding: 32px;
+    color: var(--white);
+    background-color: var(--purple-500);
+    filter: opacity(0.9);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
